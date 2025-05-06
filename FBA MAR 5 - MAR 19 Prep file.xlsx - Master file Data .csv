@@ -1,0 +1,168 @@
+RowLabel,AccountId,Memo
+COMPENSATED_CLAWBACK,588010,Compensated clawback
+FBAInboundTransportationFee,588014,Transportation to Amazon Warehouse
+FREE_REPLACEMENT_REFUND_ITEMS,588013,Free Replacement item return
+MISSING_FROM_INBOUND,010010,Missing from inbound
+OrderAFN,,
+OrderAFNCommission,588010,FBA Commission
+OrderAFNFBAPerUnitFulfillmentFee,588010,FBA Fulfilment Fee
+OrderAFNMarketplaceFacilitatorTax-Principal,030012,Sales tax pre-remitted by Amazon
+OrderAFNMarketplaceFacilitatorTax-Shipping,030012,Shipping Sales tax pre-remitted by AMZ
+OrderAFNPrincipal,010010,FBA Orders
+OrderAFNSalesTaxServiceFee,588010,FBA Tax Service
+OrderAFNShipping,010010,FBA Shipping
+OrderAFNShippingChargeback,010010,FBA shipping chargeback
+OrderAFNShippingTax,030012,FBA Shipping Tax
+OrderAFNTax,030012,FBA  Tax
+OrderMFN,,
+OrderMFNCommission,588010,Merchant Commisions
+OrderMFNMarketplaceFacilitatorTax-Principal,030012,Sales tax pre-remitted by AMZ
+OrderMFNMarketplaceFacilitatorTax-Shipping,030012,Shipping Sales tax pre-remitted by AMZ
+OrderMFNPrincipal,010010,Merchant Sales
+OrderMFNSalesTaxServiceFee,588010,Merchant Tax Service Fee
+OrderMFNShipping,010010,Merchant Shipping
+OrderMFNShippingHB,588010,Merchant Shipping Commission
+OrderMFNShippingTax,030012,Merchant shipping tax
+OrderMFNTax,030012,Merchant tax
+Refund_RetrochargeShippingTax,030012,Retro Charge Shipping Tax refund
+Refund_RetrochargeTax,030012,Retro Charge Tax refund
+RefundAFNCommission,588010,Merchant Commissions refund
+RefundAFNMarketplaceFacilitatorTax-Principal,030012,Sales tax pre-remitted by AMZ - refund
+RefundAFNMarketplaceFacilitatorTax-RestockingFee,030012,Restocking fees Sales tax pre-remitted by AMZ - refund
+RefundAFNMarketplaceFacilitatorTax-Shipping,030012,Refund of Shipping Sales tax pre-remitted by AMZ
+RefundAFNPrincipal,010010,FBA Orders
+RefundAFNRefundCommission,588010,FBA Commissions refund
+RefundAFNRestockingFee,588010,Refund of restocking fees
+RefundAFNShipping,010010,Cancel - must equal next line
+RefundAFNShippingChargeback,010010,Cancel - must equal prior line
+RefundAFNShippingTax,030012,FBA Shipping tax
+RefundAFNTax,030012,FBA  Tax refund
+RefundMFNCommission,588010,Merchant Commissions refund
+RefundMFNMarketplaceFacilitatorTax-Principal,030012,Sales tax pre-remitted by AMZ - refund
+RefundMFNMarketplaceFacilitatorTax-Shipping,030012,Shipping Sales tax pre-remitted by AMZ - refund
+RefundMFNPrincipal,010010,Merchant Sales
+RefundMFNRefundCommission,588010,Merchant Commissions refund
+RefundMFNShipping,588010,Merchant Shipping Commission refund
+RefundMFNShippingHB,588010,Merchant Shipping Commission refund
+RefundMFNShippingTax,030012,Merchant shipping tax refund
+RefundMFNTax,030012,Merchant tax refund
+REVERSAL_REIMBURSEMENT,588010,Reversal Reimbursement
+Shipping label purchase for return,588010,Shipping label purchase for return
+Subscription Fee,588010,Subscription Fee
+WAREHOUSE_DAMAGE,010010,Warehouse Damage
+WAREHOUSE_LOST,010010,Warehouse Lost
+WAREHOUSE_LOST_MANUAL,010010,Warehouse Lost Manual
+#REF!,010010,Warehouse Lost - No Category so adding it here
+DisposalComplete,588010,Disposal Complete
+FBAInboundDefectFee_BAGGING,588010,Inbound detect fees
+Order_RetrochargeShippingTax,030012,Retro Charge Shipping Tax
+Order_RetrochargeTax,030012,Order Charge retro tax
+Storage Fee,588010,Storage Fee
+WAREHOUSE_DAMAGE_EXCEPTION,010010,Warehouse Damage Exception
+Current Reserve Amount,588010,Current Reserve Amount
+Previous Reserve Amount Balance,588010,Previous Reserve Amount Balance
+SellerReviewEnrollmentPaymentReview Enrollment FeeTaxAmount,588010,Review Enrollment Fee
+OrderAFNGiftwrapChargeback,588010,FBA  Gift Wrap chargeback
+OrderAFNGiftWrap,588010,FBA Gift Wrap
+Lowvaluegoods MarketplaceFacilitatorTax-Principal,030012,Low value goods  Sales tax pre-remitted by AMZ
+Low value goods MarketplaceFacilitatorTax-Shipping,030012,Low Value goods Sales shipping tax pre-remitted by AMZ
+Refund low value goods MarketplaceFacilitatorTax-Principal,030012,Refund- Low value goods  Sales tax pre-remitted by AMZ
+Refund low value goods AFNMarketplaceFacilitatorTax-Shipping,030012,Refund- Low Value goods Sales shipping tax pre-remitted by AMZ
+OrderAFNLowValueGoodsTax-Principal,030012,Low value goods  Sales tax pre-remitted by AMZ
+OrderAFNLowValueGoodsTax-Shipping,030012,Low Value goods Sales shipping tax pre-remitted by AMZ
+RefundAFNGoodwill,588013,for Return
+RemovalComplete,588010,removal complete
+A-to-z Guarantee RefundMFNCommission,588010,Merchant Commissions refund
+A-to-z Guarantee RefundMFNMarketplaceFacilitatorTax-Principal,030012,Merchant tax refund
+A-to-z Guarantee RefundMFNPrincipal,010010,Merchant Sales
+A-to-z Guarantee RefundMFNRefundCommission,588010,Merchant Commissions refund
+A-to-z Guarantee RefundMFNTax,030012,Merchant tax refund
+OrderAFNGiftWrapTax,030012,Gift Wrap tax
+OrderAFNMarketplaceFacilitatorTax-Other,030012,Sales tax pre-remitted by AMZ - refund
+Fee AdjustmentFBA Pick & Pack Fee,588010,Refund of Pick and Pack Fee
+RefundAFNLowValueGoodsTax-Principal,030012,Low value goods  Sales tax pre-remitted by AMZ
+RefundAFNLowValueGoodsTax-Shipping,030012,Low Value goods Sales shipping tax pre-remitted by AMZ
+OrderAFNMarketplaceFacilitatorVAT-Principal,030012,Sales tax pre-remitted by AMZ
+OrderAFNMarketplaceFacilitatorVAT-Shipping,030012,Shipping Sales tax pre-remitted by AMZ
+A2ZGuaranteeRecovery,588010,Merchant Commissions refund
+CouponRedemptionFeeCouponRedemptionFeeTaxAmount,030012,Coupon Redemption Fee Tax Amount
+RefundAFNMarketplaceFacilitatorTax-Other,030012,Sales tax pre-remitted by AMZ - refund
+RefundMFNGoodwill,588013,for Return
+StorageRenewalBilling,588010,Storage Renewal Billing
+RefundAFNMarketplaceFacilitatorVAT-Principal,030012,Refund-Sales tax pre-remitted by AMZ
+RefundAFNMarketplaceFacilitatorVAT-Shipping,030012,Refund-Shipping Sales tax pre-remitted by AMZ
+NonSubscriptionfeeAdj,588013,for Return
+MiscAdjustment,588013,Misc Adjustment
+MISSING_FROM_INBOUND_CLAWBACK,010010,Missing from inbound Clawback
+RefundAFNGiftWrap,588010,FBA Gift Wrap Refund
+RefundAFNGiftwrapChargeback,588010,FBA Gift Wrap Refund Chargeback
+RefundAFNGiftWrapTax,030012,FBA Gift Wrap Tax Refund
+CommissionCorrection,588010,Commission Correction
+INBOUND_CARRIER_DAMAGE,588013,Inbound Carrier Damage
+A-to-z Guarantee RefundAFNPrincipal,010010,FBA Orders
+A-to-z Guarantee RefundAFNMarketplaceFacilitatorTax-Principal,030012,Sales tax pre-remitted by AMZ - refund
+A-to-z Guarantee RefundAFNCommission,588010,Merchant Commissions refund
+A-to-z Guarantee RefundAFNRefundCommission,588010,FBA Commissions refund
+other-transactionCOMPENSATED_CLAWBACK,588010,Compensated clawback
+other-transactionCurrent Reserve Amount,588010,Current Reserve Amount
+other-transactionFBAInboundTransportationFee,588014,Transportation to Amazon Warehouse
+other-transactionFREE_REPLACEMENT_REFUND_ITEMS,588013,Free Replacement item return
+other-transactionRemovalComplete,588010,removal complete
+other-transactionREVERSAL_REIMBURSEMENT,588010,Reversal Reimbursement
+other-transactionShipping label purchase for return,588010,Shipping label purchase for return
+other-transactionStorage Fee,588010,Storage Fee
+other-transactionWAREHOUSE_DAMAGE,010010,Warehouse Damage
+other-transactionWAREHOUSE_LOST,010010,Warehouse Lost
+other-transactionWAREHOUSE_LOST_MANUAL,010010,Warehouse Lost Manual
+other-transactionPrevious Reserve Amount Balance,588010,Previous Reserve Amount Balance
+other-transactionSubscription Fee,588010,Subscription Fee
+other-transactionWAREHOUSE_DAMAGE_EXCEPTION,010010,Warehouse Damage
+other-transactionMISSING_FROM_INBOUND,010010,Missing from inbound
+other-transactionStorageRenewalBilling,588010,Storage Renewal Billing
+other-transactionDisposalComplete,588010,Disposal Complete
+RefundMFNReturnShipping,588010,Merchant Shipping Commission refund
+Chargeback RefundMFNCommission,588010,Chargeback Merchant Commissions refund
+Chargeback RefundMFNMarketplaceFacilitatorTax-Principal,030012,Chargeback Sales tax pre-remitted by AMZ - refund
+Chargeback RefundMFNMarketplaceFacilitatorTax-Shipping,030012,Chargeback Shipping Sales tax pre-remitted by AMZ
+Chargeback RefundMFNPrincipal,010010,Chargeback Merchant Sales
+Chargeback RefundMFNRefundCommission,588010,Chargeback Merchant Commissions refund
+Chargeback RefundMFNShipping,588010,Chargeback Merchant Shipping Commission refund
+Chargeback RefundMFNShippingHB,588010,Chargeback Merchant Shipping Commission refund
+Chargeback RefundMFNShippingTax,030012,Chargeback Merchant shipping tax refund
+Chargeback RefundMFNTax,030012,Chargeback Merchant tax refund
+CouponRedemptionFeeSave 20% on Organic Ashwagandha Latte Drink Mix,588010,Coupon Redemption Fee Save 20% on Organic Ashwagandha Latte Drink Mix
+CouponRedemptionFeeSave 30% on Healthy Kapha Powder,588010,Coupon Redemption Fee Save 30% on Healthy Kapha Powder
+CouponRedemptionFeeSave 20% on CCF teas by Banyan Botanicals,588010,CouponRedemptionFeeSave 20% on CCF teas by Banyan Botanicals
+CouponRedemptionFeeSave 20% on organic Shatavari powder,588010,CouponRedemptionFeeSave 20% on organic Shatavari powder
+CouponRedemptionFeeSave 20% on organic Triphala powder,588010,CouponRedemptionFeeSave 20% on organic Triphala powder
+CouponRedemptionFeeSave 20% on organic Tulsi tablets,588010,CouponRedemptionFeeSave 20% on organic Tulsi tablets
+other-transactionCS_ERROR_ITEMS,588013,Error Items
+A-to-z Guarantee RefundMFNMarketplaceFacilitatorTax-Shipping,030012,Refund MFN Marketplace Facilitator Tax - Shipping
+A-to-z Guarantee RefundMFNShipping,588010,Merchant Shipping Commission refund
+A-to-z Guarantee RefundMFNShippingHB,588010,Merchant Shipping Commission refund
+A-to-z Guarantee RefundMFNShippingTax,030012,Merchant shipping tax refund
+other-transactionINCORRECT_FEES_NON_ITEMIZED,588010,Incorrect Fees Non Itemized
+other-transactionNonSubscriptionFeeAdj,588010,Non-subscription fee adj
+other-transactionAdjustment,588013,Misc Adjustment
+other-transactionMISSING_FROM_INBOUND_CLAWBACK,010010,Missing from inbound Clawback
+other-transactionFBA Inbound Placement Service Fee,588010,FBA Inbound Placement Service Fee
+other-transactionINBOUND_CARRIER_DAMAGE,588013,Inbound Carrier Damage
+other-transactionPAYMENT_RETRACTION_ITEMS,588010,Payment Retraction items
+Order_RetrochargeMarketplaceFacilitatorTax-Principal,030012,RetrochargeMarketplaceFacilitatorTax-Principal
+Order_RetrochargeMarketplaceFacilitatorTax-Shipping,030012,Retrocharge Marketplace Facilitator Tax-Shipping
+other-transactionMiscAdjustment,588013,Misc Adjustment
+CouponRedemptionFeeSave 20% on Daily Swish Special Subscribe Today,588010,Coupon Redemption Fee Save 20% on on Daily Swish Special Subscribe Today
+CouponRedemptionFeeSave 20% on Fresh Banyan Mung Dal Subscribe and Save Today,588010,Coupon Redemption Fee Save 20% on Fresh Banyan mung Dal Subscribe and save today
+Vine Enrollment FeeVine Enrollment Fee,588010,Vine enrollment fee
+RefundAFNShippingChargeback,010010,Cancel - must equal prior line
+CouponRedemptionFeeSave 20% on Top Organic Ayurvedic Tablets,588010,Coupon Redemption Fee Save 20% on Top Organic Ayurvedic Tablets 
+CouponRedemptionFeeSave 30% on Organic Drink Mixes,588010,Coupon Redemption Fee Save 30% on Top Organic Drink Mixes 
+CouponRedemptionFeeSave 20% on organic Ashwagandha tablets 180 count,588010,Coupon Redemption Fee Save 20% on organic Ashwagandha tablets 180 count
+CouponRedemptionFeeSave 20% on Organic Unrefined and Refined Sesame Oil,588010,Coupon Redemption Fee Save 20% on Organic Unrefined and Refined Sesame Oil
+Lightning Deal FeeLightningDealFee,588010,Lightining Deal Fee 
+other-transactionInbound Defect Fee - Shipments delivered to the wrong location,588010,Inbound Transaction Defect Fee
+Refund_RetrochargeMarketplaceFacilitatorTax-Principal,030012,Retro Charge Tax refund
+other-transactionBuyerRecharge,588013,Buyer Recharge 
+Refund_RetrochargeMarketplaceFacilitatorTax-Shipping,030012,RetrochargeMarketplaceFacilitatorTax-Shipping
+AmazonFeesBase fee,588010,AMZ Base fee
+FBAFeesBase fee,588010,FBA Base fee

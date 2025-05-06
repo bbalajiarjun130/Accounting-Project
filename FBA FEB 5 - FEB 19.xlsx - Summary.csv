@@ -1,0 +1,66 @@
+Category,SUM_of_account2
+CouponRedemptionFeeSave 20% on organic Ashwagandha tablets 180 count,-6
+CouponRedemptionFeeSave 20% on Organic Unrefined and Refined Sesame Oil,-22.2
+CouponRedemptionFeeSave 20% on Top Organic Ayurvedic Tablets,-70.2
+Order_RetrochargeMarketplaceFacilitatorTax-Principal,-0.6
+Order_RetrochargeShippingTax,0
+Order_RetrochargeTax,0.6
+OrderAFNCommission,-37494.62
+OrderAFNFBAPerUnitFulfillmentFee,-42618.13
+OrderAFNGiftWrap,3.99
+OrderAFNGiftwrapChargeback,-3.99
+OrderAFNGiftWrapTax,0.26
+OrderAFNMarketplaceFacilitatorTax-Other,-0.26
+OrderAFNMarketplaceFacilitatorTax-Principal,-12282.95
+OrderAFNMarketplaceFacilitatorTax-Shipping,-17.45
+OrderAFNMarketplaceFacilitatorVAT-Principal,-6.1
+OrderAFNMarketplaceFacilitatorVAT-Shipping,-3.14
+OrderAFNPrincipal,250821.25
+OrderAFNShipping,608.14
+OrderAFNShippingChargeback,-608.14
+OrderAFNShippingTax,20.59
+OrderAFNTax,12289.05
+OrderMFNCommission,-2225.54
+OrderMFNMarketplaceFacilitatorTax-Principal,-875.62
+OrderMFNMarketplaceFacilitatorTax-Shipping,-118.69
+OrderMFNPrincipal,15011.4
+OrderMFNShipping,2745.85
+OrderMFNShippingHB,-401.44
+OrderMFNShippingTax,118.69
+OrderMFNTax,875.62
+other-transactionAdjustment,-0.03
+other-transactionCOMPENSATED_CLAWBACK,-256.49
+other-transactionDisposalComplete,-80.83
+other-transactionFBA Inbound Placement Service Fee,-815.95
+other-transactionFBAInboundTransportationFee,-4148.03
+other-transactionFREE_REPLACEMENT_REFUND_ITEMS,396.49
+other-transactionINBOUND_CARRIER_DAMAGE,47.13
+other-transactionMISSING_FROM_INBOUND,2311.2
+other-transactionMISSING_FROM_INBOUND_CLAWBACK,-176.05
+other-transactionREVERSAL_REIMBURSEMENT,1187.75
+other-transactionShipping label purchase for return,-5.56
+other-transactionStorage Fee,-702.41
+other-transactionWAREHOUSE_DAMAGE,1769.72
+other-transactionWAREHOUSE_DAMAGE_EXCEPTION,295.91
+other-transactionWAREHOUSE_LOST,646.9
+RefundAFNCommission,769.76
+RefundAFNMarketplaceFacilitatorTax-Principal,282.65
+RefundAFNMarketplaceFacilitatorTax-Shipping,1.19
+RefundAFNMarketplaceFacilitatorVAT-Principal,3.4
+RefundAFNMarketplaceFacilitatorVAT-Shipping,2.28
+RefundAFNPrincipal,-5160.95
+RefundAFNRefundCommission,-153.95
+RefundAFNRestockingFee,6
+RefundAFNShipping,-54.84
+RefundAFNShippingChargeback,54.84
+RefundAFNShippingTax,-3.47
+RefundAFNTax,-286.05
+RefundMFNCommission,16.5
+RefundMFNMarketplaceFacilitatorTax-Principal,8.21
+RefundMFNMarketplaceFacilitatorTax-Shipping,1.53
+RefundMFNPrincipal,-109.94
+RefundMFNRefundCommission,-4.29
+RefundMFNShipping,-32.7
+RefundMFNShippingHB,4.89
+RefundMFNShippingTax,-1.53
+RefundMFNTax,-8.21
