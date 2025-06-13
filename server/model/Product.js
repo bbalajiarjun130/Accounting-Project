@@ -7,7 +7,7 @@ const ProductSchema = new mongoose.Schema({
         trim: true
     },
     AccountId: {
-        type: Number,
+        type: String,
     },
     Memo: {
         type: String,

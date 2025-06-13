@@ -1,43 +1,34 @@
-import React from 'react';
-import FileUpload from './components/FileUpload';
+// src/App.js
+import React, { useState } from 'react';
+import ProductImportForm from './components/ProductForm';
 import ManualProductForm from './components/ManualProductForm';
+import InputUploadMatchForm from './components/InputFormUploadMatch';
+import MessageDisplay from './components/MessageDisplay';
 
 export default function App() {
-    const [message, setMessage] = React.useState('');
-    const [activeTab, setActiveTab] = React.useState('upload');
+  const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false);
 
-    return (
-        <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
-            <div className="w-full max-w-md space-y-8">
-                <h1 className="text-2xl font-bold text-center">Product Addition</h1>
+  return (
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 font-sans">
+      <div className="bg-white p-8 rounded-lg shadow-xl w-full max-w-2xl text-center">
+        <h1 className="text-4xl font-extrabold text-gray-800 mb-8 tracking-tight">
+          CSV Uploader & Product Manager
+        </h1>
 
-                {/* Tabs */}
-                <div className="flex justify-center space-x-4">
-                <button
-                    className={`px-4 py-2 rounded ${activeTab === "upload" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
-                    onClick={() => setActiveTab("upload")}
-                >
-                Upload CSV
-                </button>
-                <button
-                    className={`px-4 py-2 rounded ${activeTab === "manual" ? "bg-blue-600 text-white" : "bg-gray-200"}`}
-                    onClick={() => setActiveTab("manual")}
-                >
-                Manual Entry
-                </button>
-            </div>
+        {/* Display messages to the user */}
+        <MessageDisplay message={message} />
 
-            {/* Tab Content */}
-            {activeTab === "upload" && <FileUpload setMessage={setMessage} />}
-            {activeTab === "manual" && <ManualProductForm setMessage={setMessage} />}
+        {/* Product Import Section */}
+        <ProductImportForm setLoading={setLoading} setMessage={setMessage} loading={loading} />
 
-            {/* Message */}
-            {message && (
-            <div className="text-center text-sm text-gray-700 bg-yellow-100 border border-yellow-300 p-3 rounded">
-                {message}
-            </div>
-            )}
-        </div>
+        {/* Manual Product Entry Section */}
+        <ManualProductForm setLoading={setLoading} setMessage={setMessage} loading={loading} />
+
+        {/* Input Data Upload and Match Section */}
+        <InputUploadMatchForm setLoading={setLoading} setMessage={setMessage} loading={loading} />
+      </div>
     </div>
   );
 }
+

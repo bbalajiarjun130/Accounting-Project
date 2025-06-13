@@ -7,7 +7,7 @@ const inputRoutes = require('./routes/inputRoutes');
 require('dotenv').config();
 
 const app = express();
-const PORT = 5000;
+const PORT = 8000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/accounting';
 
 // Middleware

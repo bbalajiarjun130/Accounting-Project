@@ -2,6 +2,11 @@ const Product = require('../model/Product');
 const csv = require('csv-parser');
 const fs = require('fs');
 
+function normalizeAccountId(accountId) {
+  if (!accountId) return null;
+  const trimmed = accountId.toString().trim();
+  return trimmed.padStart(6, '0');
+}
 
 // Function to fetch products from imported csv file
 exports.importProducts = async (req, res) => {
@@ -20,6 +25,11 @@ exports.importProducts = async (req, res) => {
             const filtered = [];
   
             for (let item of cleaned) {
+
+                item.AccountId = normalizeAccountId(item.AccountId);
+
+                console.log('Processing item:', item);
+
                 const exists = await Product.findOne({
                   RowLabel: item.RowLabel || null,
                   AccountId: item.AccountId || null,
@@ -55,6 +65,9 @@ exports.importProducts = async (req, res) => {
 exports.createProduct = async (req, res) => {
     const { RowLabel, AccountId, Memo } = req.body;
     try {
+
+        AccountId = normalizeAccountId(AccountId);
+
         const exists = await Product.findOne({ 
             RowLabel: RowLabel || null,
             AccountId: AccountId || null,
